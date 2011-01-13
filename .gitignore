@@ -1,0 +1,6 @@
+*.gephi
+*.graphml
+stats
+tmp
+*.swp
+spike.groovy
