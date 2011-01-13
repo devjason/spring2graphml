@@ -73,7 +73,7 @@ def main() {
     basedir = '/home/jsmith/jsi/fce-release-2/fcw/WebRoot/WEB-INF'
     APPCTX_PATTERN = ~/applicationContext.*xml/
 //    APPCTX_PATTERN = ~/applicationContext-validators.xml/
-    APPCTX_PATTERN = ~/action-servlet.*.*xml/
+    APPCTX_PATTERN = ~/a.*.*xml/
     def nodes = []
     new File(basedir).eachFileMatch(APPCTX_PATTERN) { file ->
         nodes.addAll( parseAppCtx(file) )
